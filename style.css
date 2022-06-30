@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+.navbar {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.jumbotron .profil img {
+  height: 100px;
+  height: 100px;
+  border-radius: 20%;
+}
+
+
+.jumbotron .profil {
+  display: flex;
+  justify-content: center;
+}
+
+.jumbotron .tombol a {
+  border-radius: 18px;
+  padding: 5px 20px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  outline: none;
+  box-shadow: none;
+}
+
+.jumbotron .tombol a:hover {
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+  transition: 1s;
+}
+
+.tentang {
+  background-color: rgba(255, 255, 255, 0.978);
+  height: 300px;
+  margin-top: 30px;
+}
+
+.tentang .btn {
+  padding: 3px 5px;
+  outline: none;
+  box-shadow: none;
+}
+
+.school {
+  display: flex;
+  flex-direction: row;
+}
+
+#more {display: none;}
+
+
+@media screen and (max-width: 680px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    background-color: white;
+  }
+
+  .school {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .school .card {
+    margin-top: 10px;
+  }
+
+  
+}
+
+.sekolah {
+  text-align: center;
+}
